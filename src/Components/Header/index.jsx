@@ -41,8 +41,8 @@ export default function Header({ variant }) {
               <div className="cs_top_header_left">
                 <ul className="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
                   <li>
-                    Welcome to Service First - Best Heating and Cooling Service
-                    in Melbourne
+                    Welcome to Heating Service Melbourne - Best Heating Service,
+                    Repair and Installation in Melbourne
                   </li>
                 </ul>
               </div>

@@ -14,9 +14,7 @@ const Home = () => {
   return (
     <div className="home-area">
       <Helmet>
-        <title>
-          Service First | Best Heating & Cooling Service in Melbourne
-        </title>
+        <title>Best Gas and Ducted Heating Service in Melbourne</title>
         <meta
           name="description"
           content="Expert heating and cooling installation, maintenance, and repair in Melbourne. Reliable, energy-efficient solutions for homes and businesses. 24/7 support."
