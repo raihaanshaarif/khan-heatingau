@@ -92,8 +92,8 @@ const Home = () => {
       <About
         Img="/assets/img/about_img_1.png"
         TitleUp="About Us"
-        Title="Melbourne’s Trusted Heating & Cooling Professionals"
-        Content="With years of experience, we provide expert installation, maintenance, and repair for all heating and cooling systems. Our team is dedicated to delivering reliable, energy-efficient solutions tailored to your home or business. Breathe easy with our prompt, friendly, and professional service."
+        Title="Melbourne’s Trusted Heating Professionals"
+        Content="With years of experience, we provide expert installation, maintenance, and repair for all heating systems. Our team is dedicated to delivering reliable, energy-efficient solutions tailored to your home or business. Breathe easy with our prompt, friendly, and professional service."
         FeatureList={[
           "Expert System Installation",
           "Comprehensive Maintenance",

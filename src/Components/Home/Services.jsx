@@ -18,7 +18,7 @@ const Services = () => {
       <div className="container">
         <div className="cs_section_heading cs_style_1 text-center">
           <SectionTitle
-            Title="Our Heating & Cooling Services"
+            Title="Our Heating Services"
             SubTitle="Expert solutions for every climate need"
           ></SectionTitle>
         </div>

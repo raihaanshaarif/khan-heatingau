@@ -25,9 +25,9 @@ const Faq = () => {
     img1: "/assets/img/faq_img_1.jpg",
     img2: "/assets/img/faq_img_2.jpg",
     Experience: "35K+",
-    BestAward: "Service First",
+    BestAward: "Heating Service Melbourne",
     Content:
-      "A professionally installed air conditioning system, has many benefits in the workplace and home",
+      "A professionally installed and serviced heating system offers numerous benefits for both workplaces and homes, ensuring comfort, safety, and efficiency throughout the colder months.",
   };
 
   return (
@@ -74,7 +74,7 @@ const Faq = () => {
           <div className="col-xl-6">
             <div className="cs_section_heading cs_style_1">
               <SectionTitle
-                Title="WHAT ARE THE BENEFITS OF AIR CONDITIONING?"
+                Title="WHAT ARE THE BENEFITS OF HEATING MAINTENANCE?"
                 SubTitle="Benefits"
               ></SectionTitle>
               <p className="cs_section_text">{FaqContent.Content}</p>

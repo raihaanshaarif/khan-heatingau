@@ -14,9 +14,7 @@ const Home2 = () => {
   return (
     <div>
       <Helmet>
-        <title>
-          Service First | Home 2 - Air Conditioning & Heating Experts Melbourne
-        </title>
+        <title>Heating Service Melbourne | Heating Experts Melbourne</title>
         <meta
           name="description"
           content="Turning up the chill factor in your home or office. Air conditioning and heating installation, maintenance, and custom solutions in Melbourne."
@@ -27,7 +25,7 @@ const Home2 = () => {
         />
         <meta
           property="og:title"
-          content="Service First | Home 2 - Air Conditioning & Heating Experts Melbourne"
+          content="Heating Service Melbourne | Heating Experts Melbourne"
         />
         <meta
           property="og:description"
@@ -42,7 +40,7 @@ const Home2 = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Service First | Home 2 - Air Conditioning & Heating Experts Melbourne"
+          content="Heating Service Melbourne | Air Conditioning & Heating Experts Melbourne"
         />
         <meta
           name="twitter:description"

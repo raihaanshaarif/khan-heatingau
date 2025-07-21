@@ -1,14 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const Services = [
-    "Air Conditioning systems",
-    "Ducted Gas Heating",
-    "Evaporative Coolers",
-    "Wall Furnace / Space Heater",
-    "Cleaning",
-    "Repairs",
-  ];
+  const Services = ["Gas Heating", "Ducted Heating", "Hydronic Heating"];
 
   const WorkingHours = [
     { day: "Thu - Fri", time: "9:00 AM - 9:00 PM" },
@@ -204,10 +197,10 @@ const Footer = () => {
                       Email:
                     </span>
                     <a
-                      href="mailto:info@servicefirst.com.au"
+                      href="mailto:faisalexpertise@gmail.com"
                       className="cs_white_color cs_fs_16"
                     >
-                      info@servicefirst.com.au
+                      faisalexpertise@gmail.com
                     </a>
                   </li>
                   <li>
