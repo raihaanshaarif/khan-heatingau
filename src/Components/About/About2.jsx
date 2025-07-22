@@ -78,7 +78,7 @@ const About2 = ({
                       <h3 className="cs_fs_20 cs_medium cs_mb_5">
                         {BioName}{" "}
                         <span style={{ fontWeight: 400, fontSize: "0.9em" }}>
-                          - Service First
+                          - Heating service Melbourne
                         </span>
                       </h3>
                       <a

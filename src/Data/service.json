@@ -1,17 +1,17 @@
 [
   {
     "id": "01",
-    "title": "Gas Heater",
+    "title": "Gas Heating",
     "desc": "Installation, maintenance, and repair of all types of air conditioning systems.",
     "img": "/assets/img/icons/service_icon_1.svg",
-    "link": "/service/air-conditioning"
+    "link": "/service/gas-heating"
   },
   {
     "id": "02",
-    "title": "Ducted Heater",
+    "title": "Ducted Heating",
     "desc": "Expert services for Ducted Heaters, including installation and repairs.",
     "img": "/assets/img/icons/service_icon_2.svg",
-    "link": "/service/split-system"
+    "link": "/service/ducted-heating"
   },
   {
     "id": "03",

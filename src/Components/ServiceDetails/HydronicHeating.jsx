@@ -6,15 +6,12 @@ import data from "../../Data/accordion.json";
 
 const HydronicHeating = () => {
   const ServiceCategory = [
-    { title: "Air Conditioning", link: "/service/air-conditioning" },
-    { title: "Split System", link: "/service/split-system" },
-    { title: "Hydronic Heating", link: "/service/hydronic-heating" },
+    { title: "Gas Heating", link: "/service/gas-heating" },
     {
-      title: "Ducted Air Conditioning",
-      link: "/service/ducted-air-conditioning",
+      title: "Ducted Heating",
+      link: "/service/ducted-heating",
     },
-    { title: "Evaporative Coolers", link: "/service/evaporative-coolers" },
-    { title: "Space Heater", link: "/service/wall-furnace-space-heater" },
+    { title: "Hydronic Heating", link: "/service/hydronic-heating" },
   ];
 
   const accordionContentRef = useRef(null);

@@ -6,15 +6,12 @@ import data from "../../Data/accordion.json";
 
 const DuctedGasHeating = () => {
   const ServiceCategory = [
-    { title: "Air Conditioning", link: "/service/air-conditioning" },
-    { title: "Split System", link: "/service/split-system" },
-    { title: "Hydronic Heating", link: "/service/hydronic-heating" },
+    { title: "Gas Heating", link: "/service/gas-heating" },
     {
-      title: "Ducted Air Conditioning",
-      link: "/service/ducted-air-conditioning",
+      title: "Ducted Heating",
+      link: "/service/ducted-heating",
     },
-    { title: "Evaporative Coolers", link: "/service/evaporative-coolers" },
-    { title: "Space Heater", link: "/service/wall-furnace-space-heater" },
+    { title: "Hydronic Heating", link: "/service/hydronic-heating" },
   ];
 
   const accordionContentRef = useRef(null);
@@ -37,7 +34,7 @@ const DuctedGasHeating = () => {
 
   return (
     <div className="service-details">
-      <BreadCumb Title="Ducted Air Conditioning" />
+      <BreadCumb Title="Ducted Heating" />
       <section>
         <div className="cs_height_120 cs_height_lg_80"></div>
         <div className="container">
@@ -47,21 +44,22 @@ const DuctedGasHeating = () => {
                 <div className="cs_service_details">
                   <img
                     src="/assets/img/service-ducted-air-con-img.jpg"
-                    alt="Ducted Air Conditioning Service"
+                    alt="Ducted Heating Service"
                   />
                   <h2 className="cs_fs_48 cs_mb_20">
-                    Ducted Air Conditioning Experts
+                    Ducted Heating Experts in Melbourne
                   </h2>
                   <p className="cs_mb_25">
-                    Enjoy whole-home comfort with our professional ducted air
-                    conditioning services. We specialise in the installation,
-                    maintenance, repair, and servicing of ducted systems for
-                    homes and businesses across Melbourne. Our experienced team
-                    ensures your system is designed for maximum efficiency,
-                    quiet operation, and reliable performance all year round.
+                    Experience whole-home warmth and comfort with our
+                    professional ducted heating services. We specialise in the
+                    installation, maintenance, repair, and servicing of ducted
+                    gas heating systems for homes and businesses across
+                    Melbourne. Our experienced team ensures your system is
+                    designed for maximum efficiency, quiet operation, and
+                    reliable performance throughout the colder months.
                   </p>
                   <h3 className="cs_fs_30 cs_mb_15">
-                    Why Choose Ducted Air Conditioning?
+                    Why Choose Ducted Heating?
                   </h3>
                   <ul className="cs_list cs_style_1 cs_mp_0 cs_fs_18 cs_medium cs_heading_font">
                     <li>
@@ -76,7 +74,7 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Efficiently cools or heats your entire property with one
+                      Efficiently heats your entire property with one central
                       system
                     </li>
                     <li>
@@ -91,8 +89,8 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Discreet vents and minimal visual impact for a seamless
-                      look
+                      Discreet ceiling vents provide even heat distribution
+                      throughout your home
                     </li>
                     <li>
                       <svg
@@ -121,11 +119,12 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Quiet, reliable operation for year-round comfort
+                      Whisper-quiet operation ensures peaceful warmth all winter
+                      long
                     </li>
                   </ul>
                   <h3 className="cs_fs_30 cs_mb_15">
-                    Our Ducted Air Conditioning Services
+                    Our Ducted Heating Services
                   </h3>
                   <ul className="cs_list cs_style_1 cs_mp_0 cs_fs_18 cs_medium cs_heading_font">
                     <li>
@@ -140,7 +139,7 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Custom system design and professional installation
+                      Custom heating system design and professional installation
                     </li>
                     <li>
                       <svg
@@ -154,7 +153,8 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Preventative maintenance for efficiency and longevity
+                      Annual maintenance services for optimal efficiency and
+                      safety
                     </li>
                     <li>
                       <svg
@@ -168,7 +168,7 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Fast, reliable repairs for all ducted systems
+                      Emergency repairs for all ducted heating system brands
                     </li>
                     <li>
                       <svg
@@ -182,7 +182,7 @@ const DuctedGasHeating = () => {
                           fill="currentColor"
                         />
                       </svg>
-                      Friendly, local service and honest advice
+                      Expert advice and friendly local service you can trust
                     </li>
                   </ul>
                   <h3 className="cs_fs_30 cs_mb_15">Our Service Standards</h3>
@@ -246,7 +246,7 @@ const DuctedGasHeating = () => {
                     </li>
                   </ul>
                   <h3 className="cs_fs_30 cs_mb_15">
-                    What Are the Benefits of Ducted Air Conditioning?
+                    What Are the Benefits of Ducted Heating?
                   </h3>
                   <div className="cs_accordians cs_style_1">
                     {data.map((item, index) => (

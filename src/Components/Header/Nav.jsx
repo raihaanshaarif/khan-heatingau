@@ -33,18 +33,18 @@ export default function Nav({ setMobileToggle }) {
             </li> */}
             <li>
               <Link
-                to="/service/air-conditioning"
+                to="/service/gas-heating"
                 onClick={() => setMobileToggle(false)}
               >
-                Air Conditioning
+                Gas Heating
               </Link>
             </li>
             <li>
               <Link
-                to="/service/split-system"
+                to="/service/ducted-heating"
                 onClick={() => setMobileToggle(false)}
               >
-                Split System
+                Ducted Heating
               </Link>
             </li>
             <li>
@@ -55,16 +55,16 @@ export default function Nav({ setMobileToggle }) {
                 Hydronic Heating
               </Link>
             </li>
-
-            <li>
+            {/* <li>
               <Link
-                to="/service/ducted-air-conditioning"
+                to="/service/split-system"
                 onClick={() => setMobileToggle(false)}
               >
-                Ducted Air Conditioning
+                Split System
               </Link>
-            </li>
-            <li>
+            </li> */}
+
+            {/* <li>
               <Link
                 to="/service/evaporative-coolers"
                 onClick={() => setMobileToggle(false)}
@@ -95,9 +95,43 @@ export default function Nav({ setMobileToggle }) {
               >
                 Repairs
               </Link>
-            </li>
+            </li> */}
           </ul>
         </DropDown>
+      </li>
+
+      <li className="menu-item-has-children">
+        <Link to="/service-area" onClick={() => setMobileToggle(false)}>
+          Service Areas
+        </Link>
+        {/* <DropDown>
+          <ul>
+            <li>
+              <Link
+                to="/service/gas-heating"
+                onClick={() => setMobileToggle(false)}
+              >
+                Gas Heating
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/service/ducted-heating"
+                onClick={() => setMobileToggle(false)}
+              >
+                Ducted Heating
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/service/hydronic-heating"
+                onClick={() => setMobileToggle(false)}
+              >
+                Hydronic Heating
+              </Link>
+            </li>
+          </ul>
+        </DropDown> */}
       </li>
       {/* <li className="menu-item-has-children">
         <Link to="#">Pages</Link>
