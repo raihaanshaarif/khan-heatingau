@@ -2,21 +2,21 @@
   {
     "id": "01",
     "title": "Gas Heating",
-    "desc": "Installation, maintenance, and repair of all types of air conditioning systems.",
+    "desc": "Gas heating service, repair, installation, and maintenance for homes and businesses in Melbourne.",
     "img": "/assets/img/icons/service_icon_1.svg",
     "link": "/service/gas-heating"
   },
   {
     "id": "02",
     "title": "Ducted Heating",
-    "desc": "Expert services for Ducted Heaters, including installation and repairs.",
+    "desc": "Ducted heating service, repair, installation, and maintenance by Melbourne specialists.",
     "img": "/assets/img/icons/service_icon_2.svg",
     "link": "/service/ducted-heating"
   },
   {
     "id": "03",
     "title": "Hydronic Heating",
-    "desc": "Hydronic heating solutions for efficient and comfortable indoor heating.",
+    "desc": "Hydronic heating service, repair, installation, and maintenance for efficient indoor comfort.",
     "img": "/assets/img/icons/service_icon_3.svg",
     "link": "/service/hydronic-heating"
   }

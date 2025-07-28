@@ -1,65 +1,226 @@
 import { createBrowserRouter } from "react-router-dom";
+// --- AUTO-GENERATED AREA IMPORTS START ---
+import Armadale from "../Components/AreaDetails/armadale";
+import Ashwood from "../Components/AreaDetails/ashwood";
+import Attwood from "../Components/AreaDetails/attwood";
+import Avonsleigh from "../Components/AreaDetails/avonsleigh";
+import Baxter from "../Components/AreaDetails/baxter";
+import Beaconsfield from "../Components/AreaDetails/beaconsfield";
+import Beaumaris from "../Components/AreaDetails/beaumaris";
+import Bentleigh from "../Components/AreaDetails/bentleigh";
+import BentleighEast from "../Components/AreaDetails/bentleigh-east";
+import Berwick from "../Components/AreaDetails/berwick";
+import Bittern from "../Components/AreaDetails/bittern";
+import BlackburnNorth from "../Components/AreaDetails/blackburn-north";
+import Blairgowrie from "../Components/AreaDetails/blairgowrie";
+import Boneo from "../Components/AreaDetails/boneo";
+import BotanicRidge from "../Components/AreaDetails/botanic-ridge";
+import BoxHill from "../Components/AreaDetails/box-hill";
+import BriarHill from "../Components/AreaDetails/briar-hill";
+import BrightonEast from "../Components/AreaDetails/brighton-east";
+import Broadmeadows from "../Components/AreaDetails/broadmeadows";
+import Bundoora from "../Components/AreaDetails/bundoora";
+import Burwood3125 from "../Components/AreaDetails/burwood-3125";
+import BurwoodChadstone from "../Components/AreaDetails/burwood-chadstone";
+import BurwoodEast from "../Components/AreaDetails/burwood-east";
+import CapeSchanck from "../Components/AreaDetails/cape-schanck";
+import CapelSound from "../Components/AreaDetails/capel-sound";
+import Carnegie from "../Components/AreaDetails/carnegie";
+import CarrumDowns from "../Components/AreaDetails/carrum-downs";
+import CaulfieldEast from "../Components/AreaDetails/caulfield-east";
+import CaulfieldJunction from "../Components/AreaDetails/caulfield-junction";
+import CaulfieldNorth from "../Components/AreaDetails/caulfield-north";
+import CaulfieldSouth from "../Components/AreaDetails/caulfield-south";
+import Cheltenham from "../Components/AreaDetails/cheltenham";
+import Clayton from "../Components/AreaDetails/clayton";
+import ClaytonSouth from "../Components/AreaDetails/clayton-south";
+import Cleeland from "../Components/AreaDetails/cleeland";
+import Clyde from "../Components/AreaDetails/clyde";
+import ClydeNorth from "../Components/AreaDetails/clyde-north";
+import Cremorne from "../Components/AreaDetails/cremorne";
+import CribPoint from "../Components/AreaDetails/crib-point";
+import Dandenong3175 from "../Components/AreaDetails/dandenong-3175";
+import DandenongEast from "../Components/AreaDetails/dandenong-east";
+import DandenongNorth from "../Components/AreaDetails/dandenong-north";
+import DandenongSouth from "../Components/AreaDetails/dandenong-south";
+import DingleyVillage from "../Components/AreaDetails/dingley-village";
+import Doncaster from "../Components/AreaDetails/doncaster";
+import DoncasterHill from "../Components/AreaDetails/doncaster-hill";
+import Donvale from "../Components/AreaDetails/donvale";
+import Doveton from "../Components/AreaDetails/doveton";
+import Dromana from "../Components/AreaDetails/dromana";
+import Dunearn from "../Components/AreaDetails/dunearn";
+import Edithvale from "../Components/AreaDetails/edithvale";
+import Elsternwick from "../Components/AreaDetails/elsternwick";
+import Eltham from "../Components/AreaDetails/eltham";
+import EndeavourHills from "../Components/AreaDetails/endeavour-hills";
+import Eumemmerring from "../Components/AreaDetails/eumemmerring";
+import Fairfield from "../Components/AreaDetails/fairfield";
+import Flemington from "../Components/AreaDetails/flemington";
+import Frankston from "../Components/AreaDetails/frankston";
+import GlenIris from "../Components/AreaDetails/glen-iris";
+import Greensborough from "../Components/AreaDetails/greensborough";
+import Hallam from "../Components/AreaDetails/hallam";
+import HamptonPark from "../Components/AreaDetails/hampton-park";
+import Hawthorn from "../Components/AreaDetails/hawthorn";
+import Heatherton from "../Components/AreaDetails/heatherton";
+import Heidelberg from "../Components/AreaDetails/heidelberg";
+import Hughesdale from "../Components/AreaDetails/hughesdale";
+import Huntingdale from "../Components/AreaDetails/huntingdale";
+import Ivanhoe from "../Components/AreaDetails/ivanhoe";
+import JunctionVillage from "../Components/AreaDetails/junction-village";
+import Kallista from "../Components/AreaDetails/kallista";
+import Kew from "../Components/AreaDetails/kew";
+import Kensington from "../Components/AreaDetails/kensington";
+import Keysborough from "../Components/AreaDetails/keysborough";
+import Kilsyth from "../Components/AreaDetails/kilsyth";
+import Knoxfield from "../Components/AreaDetails/knoxfield";
+import Langwarrin from "../Components/AreaDetails/langwarrin";
+import Lilydale from "../Components/AreaDetails/lilydale";
+import LowerPlenty from "../Components/AreaDetails/lower-plenty";
+import Lynbrook from "../Components/AreaDetails/lynbrook";
+import Lyndhurst from "../Components/AreaDetails/lyndhurst";
+import Lyndhurst3975 from "../Components/AreaDetails/lyndhurst-3975";
+import Macleod from "../Components/AreaDetails/macleod";
+import MalvernEast from "../Components/AreaDetails/malvern-east";
+import MalvernNorth from "../Components/AreaDetails/malvern-north";
+import Mentone from "../Components/AreaDetails/mentone";
+import MenziesCreek from "../Components/AreaDetails/menzies-creek";
+import Millgrove from "../Components/AreaDetails/millgrove";
+import Mitcham from "../Components/AreaDetails/mitcham";
+import Monbulk from "../Components/AreaDetails/monbulk";
+import MontAlbert from "../Components/AreaDetails/mont-albert";
+import Montmorency from "../Components/AreaDetails/montmorency";
+import Moorabbin from "../Components/AreaDetails/moorabbin";
+import MoorabbinEast from "../Components/AreaDetails/moorabbin-east";
+import Mooroolbark from "../Components/AreaDetails/mooroolbark";
+import Mornington from "../Components/AreaDetails/mornington";
+import MountBurnett from "../Components/AreaDetails/mount-burnett";
+import MountEliza from "../Components/AreaDetails/mount-eliza";
+import MountEvelyn from "../Components/AreaDetails/mount-evelyn";
+import MountToolebewong from "../Components/AreaDetails/mount-toolebewong";
+import Mulgrave from "../Components/AreaDetails/mulgrave";
+import Murrumbeena from "../Components/AreaDetails/murrumbeena";
+import NarreWarren from "../Components/AreaDetails/narre-warren";
+import NarreWarrenEast from "../Components/AreaDetails/narre-warren-east";
+import NarreWarrenNorth from "../Components/AreaDetails/narre-warren-north";
+import NarreWarrenSouth from "../Components/AreaDetails/narre-warren-south";
+import NoblePark from "../Components/AreaDetails/noble-park";
+import NobleParkNorth from "../Components/AreaDetails/noble-park-north";
+import NorthMelbourne from "../Components/AreaDetails/north-melbourne";
+import Northcote from "../Components/AreaDetails/northcote";
+import NottingHill from "../Components/AreaDetails/notting-hill";
+import Nunawading from "../Components/AreaDetails/nunawading";
+import Oakleigh from "../Components/AreaDetails/oakleigh";
+import OakleighEast from "../Components/AreaDetails/oakleigh-east";
+import OakleighSouth from "../Components/AreaDetails/oakleigh-south";
+import Olinda from "../Components/AreaDetails/olinda";
+import Ormond from "../Components/AreaDetails/ormond";
+import ParkOrchards from "../Components/AreaDetails/park-orchards";
+import PortMelbourne from "../Components/AreaDetails/port-melbourne";
+import Portsea from "../Components/AreaDetails/portsea";
+import Prahran from "../Components/AreaDetails/prahran";
+import Preston from "../Components/AreaDetails/preston";
+import RedHill from "../Components/AreaDetails/red-hill";
+import RedHillSouth from "../Components/AreaDetails/red-hill-south";
+import Reservoir from "../Components/AreaDetails/reservoir";
+import RichmondEast from "../Components/AreaDetails/richmond-east";
+import RingwoodNorth from "../Components/AreaDetails/ringwood-north";
+import Rosanna from "../Components/AreaDetails/rosanna";
+import Rosebud from "../Components/AreaDetails/rosebud";
+import Rowville from "../Components/AreaDetails/rowville";
+import Rye from "../Components/AreaDetails/rye";
+import SafetyBeach from "../Components/AreaDetails/safety-beach";
+import Sandringham from "../Components/AreaDetails/sandringham";
+import Selby from "../Components/AreaDetails/selby";
+import Skye from "../Components/AreaDetails/skye";
+import Sorrento from "../Components/AreaDetails/sorrento";
+import SouthMelbourne from "../Components/AreaDetails/south-melbourne";
+import SouthYarra from "../Components/AreaDetails/south-yarra";
+import Southbank from "../Components/AreaDetails/southbank";
+import Springvale from "../Components/AreaDetails/springvale";
+import SpringvaleSouth from "../Components/AreaDetails/springvale-south";
+import StHelena from "../Components/AreaDetails/st-helena";
+import SurreyHills from "../Components/AreaDetails/surrey-hills";
+import SurreyHillsSouth from "../Components/AreaDetails/surrey-hills-south";
+import Tecoma from "../Components/AreaDetails/tecoma";
+import TheBasin from "../Components/AreaDetails/the-basin";
+import ThePatch from "../Components/AreaDetails/the-patch";
+import Thornbury from "../Components/AreaDetails/thornbury";
+import Toorak from "../Components/AreaDetails/toorak";
+import Tootgarook from "../Components/AreaDetails/tootgarook";
+import Tyabb from "../Components/AreaDetails/tyabb";
+import TyabbEast from "../Components/AreaDetails/tyabb-east";
+import UpperFerntreeGully from "../Components/AreaDetails/upper-ferntree-gully";
+import Upwey from "../Components/AreaDetails/upwey";
+import Vermont from "../Components/AreaDetails/vermont";
+import Viewbank from "../Components/AreaDetails/viewbank";
+import WandinNorth from "../Components/AreaDetails/wandin-north";
+import Wantirna from "../Components/AreaDetails/wantirna";
+import Warburton from "../Components/AreaDetails/warburton";
+import Warrandyte from "../Components/AreaDetails/warrandyte";
+import Warranwood from "../Components/AreaDetails/warranwood";
+import Watsonia from "../Components/AreaDetails/watsonia";
+import WaverleyPark from "../Components/AreaDetails/waverley-park";
+import Wesburn from "../Components/AreaDetails/wesburn";
+import Westall from "../Components/AreaDetails/westall";
+import WheelersHill from "../Components/AreaDetails/wheelers-hill";
+import WongaPark from "../Components/AreaDetails/wonga-park";
+import WooriYallock from "../Components/AreaDetails/woori-yallock";
+import YarraGlen from "../Components/AreaDetails/yarra-glen";
+import YarraJunction from "../Components/AreaDetails/yarra-junction";
+import Yellingbo from "../Components/AreaDetails/yellingbo";
+import Yering from "../Components/AreaDetails/yering";
+// --- AUTO-GENERATED AREA IMPORTS END ---
+// --- AUTO-GENERATED AREA ROUTES START ---
+
+// --- AUTO-GENERATED AREA ROUTES END ---
 import Main from "../Layout/Main";
 import Parkdale from "../Components/AreaDetails/parkdale";
 import BlackRock from "../Components/AreaDetails/black-rock";
-import Rowville from "../Components/AreaDetails/rowville";
+
 import Scoresby from "../Components/AreaDetails/scoresby";
 import KnoxKnoxfield from "../Components/AreaDetails/knox-knoxfield";
 import StAndrews from "../Components/AreaDetails/st-andrews";
 import Montrose from "../Components/AreaDetails/montrose";
 import Kalorama from "../Components/AreaDetails/kalorama";
 import MountDandenong from "../Components/AreaDetails/mount-dandenong";
-import Yering from "../Components/AreaDetails/yering";
+
 import Gruyere from "../Components/AreaDetails/gruyere";
 import Coldstream from "../Components/AreaDetails/coldstream";
-import Yellingbo from "../Components/AreaDetails/yellingbo";
+
 import SteelsCreek from "../Components/AreaDetails/steels-creek";
 import DixonsCreek from "../Components/AreaDetails/dixons-creek";
 import ChristmasHills from "../Components/AreaDetails/christmas-hills";
 import Toolangi from "../Components/AreaDetails/toolangi";
-import MountToolebewong from "../Components/AreaDetails/mount-toolebewong";
+
 import LaunchingPlace from "../Components/AreaDetails/launching-place";
 import ChumCreek from "../Components/AreaDetails/chum-creek";
 import BadgerCreek from "../Components/AreaDetails/badger-creek";
-import MountBurnett from "../Components/AreaDetails/mount-burnett";
+
 import Cockatoo from "../Components/AreaDetails/cockatoo";
 import Macclesfield from "../Components/AreaDetails/macclesfield";
 import MountWaverley from "../Components/AreaDetails/mount-waverley";
 import Clematis from "../Components/AreaDetails/clematis";
-import Avonsleigh from "../Components/AreaDetails/avonsleigh";
+
 import Gembrook from "../Components/AreaDetails/gembrook";
-import WheelersHill from "../Components/AreaDetails/wheelers-hill";
+
 import FernyCreek from "../Components/AreaDetails/ferny-creek";
 import Sassafras from "../Components/AreaDetails/sassafras";
-import Olinda from "../Components/AreaDetails/olinda";
+
 import Sherbrooke from "../Components/AreaDetails/sherbrooke";
-import Kallista from "../Components/AreaDetails/kallista";
-import ThePatch from "../Components/AreaDetails/the-patch";
+
 import GlenWaverley from "../Components/AreaDetails/glen-waverley";
 import Silvan from "../Components/AreaDetails/silvan";
-import Wantirna from "../Components/AreaDetails/wantirna";
+
 import Bayswater from "../Components/AreaDetails/bayswater";
-import TheBasin from "../Components/AreaDetails/the-basin";
+
 import Powellton from "../Components/AreaDetails/powellton";
 import Gladysvale from "../Components/AreaDetails/gladysvale";
 import Boronia from "../Components/AreaDetails/boronia";
-import Wesburn from "../Components/AreaDetails/wesburn";
+
 import Lysterfield from "../Components/AreaDetails/lysterfield";
-import Upwey from "../Components/AreaDetails/upwey";
-import Millgrove from "../Components/AreaDetails/millgrove";
-import Selby from "../Components/AreaDetails/selby";
-import Tecoma from "../Components/AreaDetails/tecoma";
-import MenziesCreek from "../Components/AreaDetails/menzies-creek";
-import Warrandyte from "../Components/AreaDetails/warrandyte";
-import ParkOrchards from "../Components/AreaDetails/park-orchards";
-import WongaPark from "../Components/AreaDetails/wonga-park";
-import Fitzroy from "../Components/AreaDetails/fitzroy";
-import Vermont from "../Components/AreaDetails/vermont";
-import Warranwood from "../Components/AreaDetails/warranwood";
-import Essendon from "../Components/AreaDetails/essendon";
-import Carlton from "../Components/AreaDetails/carlton";
-import Richmond from "../Components/AreaDetails/richmond";
-import Kilsyth from "../Components/AreaDetails/kilsyth";
+
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
@@ -78,38 +239,45 @@ import EvaporativeCoolers from "../Components/ServiceDetails/EvaporativeCoolers"
 import WallFurnase_SpaceHeater from "../Components/ServiceDetails/WallFurnase_SpaceHeater";
 import Cleaning from "../Components/ServiceDetails/Cleaning";
 import Repairs from "../Components/ServiceDetails/Repairs";
-import Brands from "../Pages/Team";
+import Brands from "../Components/Brands/Brands";
 import HydronicHeating from "../Components/ServiceDetails/HydronicHeating";
 import SplitSystem from "../Components/ServiceDetails/SplitSystem";
 import DuctedHeating from "../Components/ServiceDetails/GasHeating";
 import Area from "../Components/Area/Area";
 import Seville from "../Components/AreaDetails/seville";
-import YarraGlen from "../Components/AreaDetails/yarra-glen";
+
 import ChirnsidePark from "../Components/AreaDetails/chirnside-park";
 import CroydonHills from "../Components/AreaDetails/croydon-hills";
-import Mitcham from "../Components/AreaDetails/mitcham";
+
 import Elwood from "../Components/AreaDetails/elwood";
 import Emerald from "../Components/AreaDetails/emerald";
-import Lilydale from "../Components/AreaDetails/lilydale";
-import SouthMelbourne from "../Components/AreaDetails/south-melbourne";
-import WandinNorth from "../Components/AreaDetails/wandin-north";
+
 import Gilderoy from "../Components/AreaDetails/gilderoy";
-import MountEvelyn from "../Components/AreaDetails/mount-evelyn";
-import Mooroolbark from "../Components/AreaDetails/mooroolbark";
+
 import Ringwood from "../Components/AreaDetails/ringwood";
-import Monbulk from "../Components/AreaDetails/monbulk";
+
 import Healesville from "../Components/AreaDetails/healesville";
-import WooriYallock from "../Components/AreaDetails/woori-yallock";
+
 import FerntreeGully from "../Components/AreaDetails/ferntree-gully";
 import Belgrave from "../Components/AreaDetails/belgrave";
 import Kinglake from "../Components/AreaDetails/kinglake";
-import YarraJunction from "../Components/AreaDetails/yarra-junction";
-import Warburton from "../Components/AreaDetails/warburton";
+
 import Hampton from "../Components/AreaDetails/hampton";
 import StKilda from "../Components/AreaDetails/st-kilda";
 import Caulfield from "../Components/AreaDetails/caulfield";
 import Brighton from "../Components/AreaDetails/brighton";
 import HoddlesCreek from "../Components/AreaDetails/hoddles-creek";
+import Essendon from "../Components/AreaDetails/essendon";
+import Carlton from "../Components/AreaDetails/carlton";
+import Richmond from "../Components/AreaDetails/richmond";
+import Fitzroy from "../Components/AreaDetails/fitzroy";
+import Braemar from "../Components/BrandsDetails/Braemar";
+import Brivis from "../Components/BrandsDetails/Brivis";
+import Bonaire from "../Components/BrandsDetails/Bonaire";
+import Kaden from "../Components/BrandsDetails/Kaden";
+
+import Omega from "../Components/BrandsDetails/Omega";
+import Vulcan from "../Components/BrandsDetails/Vulkan";
 
 export const router = createBrowserRouter([
   {
@@ -132,6 +300,35 @@ export const router = createBrowserRouter([
         path: "/service/service-details",
         element: <ServiceDetails></ServiceDetails>,
       },
+      {
+        path: "/brands",
+        element: <Brands></Brands>,
+      },
+      {
+        path: "/brands/braemar",
+        element: <Braemar></Braemar>,
+      },
+      {
+        path: "/brands/brivis",
+        element: <Brivis></Brivis>,
+      },
+      {
+        path: "/brands/kaden",
+        element: <Kaden></Kaden>,
+      },
+      {
+        path: "/brands/vulcan",
+        element: <Vulcan></Vulcan>,
+      },
+      {
+        path: "/brands/omega",
+        element: <Omega></Omega>,
+      },
+      {
+        path: "/brands/bonaire",
+        element: <Bonaire></Bonaire>,
+      },
+
       {
         path: "/service/gas-heating",
         element: <DuctedHeating></DuctedHeating>,
@@ -527,11 +724,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "service-area/essendon",
-        element: <Essendon></Essendon>,
+        element: <Essendon />,
       },
       {
         path: "service-area/carlton",
-        element: <Carlton></Carlton>,
+        element: <Carlton />,
       },
       {
         path: "service-area/richmond",
@@ -545,6 +742,190 @@ export const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
+      { path: "service-area/armadale", element: <Armadale /> },
+      { path: "service-area/ashwood", element: <Ashwood /> },
+      { path: "service-area/attwood", element: <Attwood /> },
+      { path: "service-area/avonsleigh", element: <Avonsleigh /> },
+      { path: "service-area/baxter", element: <Baxter /> },
+      { path: "service-area/beaconsfield", element: <Beaconsfield /> },
+      { path: "service-area/beaumaris", element: <Beaumaris /> },
+      { path: "service-area/bentleigh", element: <Bentleigh /> },
+      { path: "service-area/bentleigh-east", element: <BentleighEast /> },
+      { path: "service-area/berwick", element: <Berwick /> },
+      { path: "service-area/bittern", element: <Bittern /> },
+      { path: "service-area/blackburn-north", element: <BlackburnNorth /> },
+      { path: "service-area/blairgowrie", element: <Blairgowrie /> },
+      { path: "service-area/boneo", element: <Boneo /> },
+      { path: "service-area/botanic-ridge", element: <BotanicRidge /> },
+      { path: "service-area/box-hill", element: <BoxHill /> },
+      { path: "service-area/briar-hill", element: <BriarHill /> },
+      { path: "service-area/brighton-east", element: <BrightonEast /> },
+      { path: "service-area/broadmeadows", element: <Broadmeadows /> },
+      { path: "service-area/bundoora", element: <Bundoora /> },
+      { path: "service-area/burwood-3125", element: <Burwood3125 /> },
+      { path: "service-area/burwood-chadstone", element: <BurwoodChadstone /> },
+      { path: "service-area/burwood-east", element: <BurwoodEast /> },
+      { path: "service-area/cape-schanck", element: <CapeSchanck /> },
+      { path: "service-area/capel-sound", element: <CapelSound /> },
+      { path: "service-area/carnegie", element: <Carnegie /> },
+      { path: "service-area/carrum-downs", element: <CarrumDowns /> },
+      { path: "service-area/caulfield-east", element: <CaulfieldEast /> },
+      {
+        path: "service-area/caulfield-junction",
+        element: <CaulfieldJunction />,
+      },
+      { path: "service-area/caulfield-north", element: <CaulfieldNorth /> },
+      { path: "service-area/caulfield-south", element: <CaulfieldSouth /> },
+      { path: "service-area/cheltenham", element: <Cheltenham /> },
+      { path: "service-area/clayton", element: <Clayton /> },
+      { path: "service-area/clayton-south", element: <ClaytonSouth /> },
+      { path: "service-area/cleeland", element: <Cleeland /> },
+      { path: "service-area/clyde", element: <Clyde /> },
+      { path: "service-area/clyde-north", element: <ClydeNorth /> },
+      { path: "service-area/cremorne", element: <Cremorne /> },
+      { path: "service-area/crib-point", element: <CribPoint /> },
+      { path: "service-area/dandenong-3175", element: <Dandenong3175 /> },
+      { path: "service-area/dandenong-east", element: <DandenongEast /> },
+      { path: "service-area/dandenong-north", element: <DandenongNorth /> },
+      { path: "service-area/dandenong-south", element: <DandenongSouth /> },
+      { path: "service-area/dingley-village", element: <DingleyVillage /> },
+      { path: "service-area/doncaster", element: <Doncaster /> },
+      { path: "service-area/doncaster-hill", element: <DoncasterHill /> },
+      { path: "service-area/donvale", element: <Donvale /> },
+      { path: "service-area/doveton", element: <Doveton /> },
+      { path: "service-area/dromana", element: <Dromana /> },
+      { path: "service-area/dunearn", element: <Dunearn /> },
+      { path: "service-area/edithvale", element: <Edithvale /> },
+      { path: "service-area/elsternwick", element: <Elsternwick /> },
+      { path: "service-area/eltham", element: <Eltham /> },
+      { path: "service-area/endeavour-hills", element: <EndeavourHills /> },
+      { path: "service-area/eumemmerring", element: <Eumemmerring /> },
+      { path: "service-area/fairfield", element: <Fairfield /> },
+      { path: "service-area/flemington", element: <Flemington /> },
+      { path: "service-area/frankston", element: <Frankston /> },
+      { path: "service-area/glen-iris", element: <GlenIris /> },
+      { path: "service-area/greensborough", element: <Greensborough /> },
+      { path: "service-area/hallam", element: <Hallam /> },
+      { path: "service-area/hampton-park", element: <HamptonPark /> },
+      { path: "service-area/hawthorn", element: <Hawthorn /> },
+      { path: "service-area/heatherton", element: <Heatherton /> },
+      { path: "service-area/heidelberg", element: <Heidelberg /> },
+      { path: "service-area/hughesdale", element: <Hughesdale /> },
+      { path: "service-area/huntingdale", element: <Huntingdale /> },
+      { path: "service-area/ivanhoe", element: <Ivanhoe /> },
+      { path: "service-area/junction-village", element: <JunctionVillage /> },
+      { path: "service-area/kallista", element: <Kallista /> },
+      { path: "service-area/kew", element: <Kew /> },
+      { path: "service-area/kensington", element: <Kensington /> },
+      { path: "service-area/keysborough", element: <Keysborough /> },
+      { path: "service-area/knoxfield", element: <Knoxfield /> },
+      { path: "service-area/langwarrin", element: <Langwarrin /> },
+      { path: "service-area/lilydale", element: <Lilydale /> },
+      { path: "service-area/lower-plenty", element: <LowerPlenty /> },
+      { path: "service-area/lynbrook", element: <Lynbrook /> },
+      { path: "service-area/lyndhurst", element: <Lyndhurst /> },
+      { path: "service-area/lyndhurst-3975", element: <Lyndhurst3975 /> },
+      { path: "service-area/macleod", element: <Macleod /> },
+      { path: "service-area/malvern-east", element: <MalvernEast /> },
+      { path: "service-area/malvern-north", element: <MalvernNorth /> },
+      { path: "service-area/mentone", element: <Mentone /> },
+      { path: "service-area/menzies-creek", element: <MenziesCreek /> },
+      { path: "service-area/millgrove", element: <Millgrove /> },
+      { path: "service-area/mitcham", element: <Mitcham /> },
+      { path: "service-area/monbulk", element: <Monbulk /> },
+      { path: "service-area/mont-albert", element: <MontAlbert /> },
+      { path: "service-area/montmorency", element: <Montmorency /> },
+      { path: "service-area/moorabbin", element: <Moorabbin /> },
+      { path: "service-area/moorabbin-east", element: <MoorabbinEast /> },
+      { path: "service-area/mooroolbark", element: <Mooroolbark /> },
+      { path: "service-area/mornington", element: <Mornington /> },
+      { path: "service-area/mount-burnett", element: <MountBurnett /> },
+      { path: "service-area/mount-eliza", element: <MountEliza /> },
+      { path: "service-area/mount-evelyn", element: <MountEvelyn /> },
+      { path: "service-area/mount-toolebewong", element: <MountToolebewong /> },
+      { path: "service-area/mulgrave", element: <Mulgrave /> },
+      { path: "service-area/murrumbeena", element: <Murrumbeena /> },
+      { path: "service-area/narre-warren", element: <NarreWarren /> },
+      { path: "service-area/narre-warren-east", element: <NarreWarrenEast /> },
+      {
+        path: "service-area/narre-warren-north",
+        element: <NarreWarrenNorth />,
+      },
+      {
+        path: "service-area/narre-warren-south",
+        element: <NarreWarrenSouth />,
+      },
+      { path: "service-area/noble-park", element: <NoblePark /> },
+      { path: "service-area/noble-park-north", element: <NobleParkNorth /> },
+      { path: "service-area/north-melbourne", element: <NorthMelbourne /> },
+      { path: "service-area/northcote", element: <Northcote /> },
+      { path: "service-area/notting-hill", element: <NottingHill /> },
+      { path: "service-area/nunawading", element: <Nunawading /> },
+      { path: "service-area/oakleigh", element: <Oakleigh /> },
+      { path: "service-area/oakleigh-east", element: <OakleighEast /> },
+      { path: "service-area/oakleigh-south", element: <OakleighSouth /> },
+      { path: "service-area/olinda", element: <Olinda /> },
+      { path: "service-area/ormond", element: <Ormond /> },
+      { path: "service-area/port-melbourne", element: <PortMelbourne /> },
+      { path: "service-area/portsea", element: <Portsea /> },
+      { path: "service-area/prahran", element: <Prahran /> },
+      { path: "service-area/preston", element: <Preston /> },
+      { path: "service-area/red-hill", element: <RedHill /> },
+      { path: "service-area/red-hill-south", element: <RedHillSouth /> },
+      { path: "service-area/reservoir", element: <Reservoir /> },
+      { path: "service-area/richmond-east", element: <RichmondEast /> },
+      { path: "service-area/ringwood-north", element: <RingwoodNorth /> },
+      { path: "service-area/rosanna", element: <Rosanna /> },
+      { path: "service-area/rosebud", element: <Rosebud /> },
+      { path: "service-area/rowville", element: <Rowville /> },
+      { path: "service-area/rye", element: <Rye /> },
+      { path: "service-area/safety-beach", element: <SafetyBeach /> },
+      { path: "service-area/sandringham", element: <Sandringham /> },
+      { path: "service-area/selby", element: <Selby /> },
+      { path: "service-area/skye", element: <Skye /> },
+      { path: "service-area/sorrento", element: <Sorrento /> },
+      { path: "service-area/south-melbourne", element: <SouthMelbourne /> },
+      { path: "service-area/south-yarra", element: <SouthYarra /> },
+      { path: "service-area/southbank", element: <Southbank /> },
+      { path: "service-area/springvale", element: <Springvale /> },
+      { path: "service-area/springvale-south", element: <SpringvaleSouth /> },
+      { path: "service-area/st-helena", element: <StHelena /> },
+      { path: "service-area/surrey-hills", element: <SurreyHills /> },
+      {
+        path: "service-area/surrey-hills-south",
+        element: <SurreyHillsSouth />,
+      },
+      { path: "service-area/tecoma", element: <Tecoma /> },
+      { path: "service-area/the-basin", element: <TheBasin /> },
+      { path: "service-area/the-patch", element: <ThePatch /> },
+      { path: "service-area/thornbury", element: <Thornbury /> },
+      { path: "service-area/toorak", element: <Toorak /> },
+      { path: "service-area/tootgarook", element: <Tootgarook /> },
+      { path: "service-area/tyabb", element: <Tyabb /> },
+      { path: "service-area/tyabb-east", element: <TyabbEast /> },
+      {
+        path: "service-area/upper-ferntree-gully",
+        element: <UpperFerntreeGully />,
+      },
+      { path: "service-area/upwey", element: <Upwey /> },
+      { path: "service-area/vermont", element: <Vermont /> },
+      { path: "service-area/viewbank", element: <Viewbank /> },
+      { path: "service-area/wandin-north", element: <WandinNorth /> },
+      { path: "service-area/wantirna", element: <Wantirna /> },
+      { path: "service-area/warburton", element: <Warburton /> },
+      { path: "service-area/warrandyte", element: <Warrandyte /> },
+      { path: "service-area/warranwood", element: <Warranwood /> },
+      { path: "service-area/watsonia", element: <Watsonia /> },
+      { path: "service-area/waverley-park", element: <WaverleyPark /> },
+      { path: "service-area/wesburn", element: <Wesburn /> },
+      { path: "service-area/westall", element: <Westall /> },
+      { path: "service-area/wheelers-hill", element: <WheelersHill /> },
+      { path: "service-area/wonga-park", element: <WongaPark /> },
+      { path: "service-area/woori-yallock", element: <WooriYallock /> },
+      { path: "service-area/yarra-glen", element: <YarraGlen /> },
+      { path: "service-area/yarra-junction", element: <YarraJunction /> },
+      { path: "service-area/yellingbo", element: <Yellingbo /> },
+      { path: "service-area/yering", element: <Yering /> },
     ],
   },
   {

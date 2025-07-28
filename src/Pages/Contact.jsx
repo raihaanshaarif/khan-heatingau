@@ -8,41 +8,45 @@ const Contact = () => {
     <div className="contact-page">
       <Helmet>
         <title>
-          Contact Us | Service First - Book Your Heating & Cooling Appointment
+          Contact Heating Service Melbourne | Gas, Ducted & Hydronic Heating -
+          Service, Repair, Installation & Maintenance
         </title>
         <meta
           name="description"
-          content="Contact Service First for expert heating and cooling services in Melbourne. Book an appointment, get a quote, or ask a question today!"
+          content="Contact Heating Service Melbourne for expert Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance. Book your heating appointment or request a quote today."
         />
         <meta
           name="keywords"
-          content="Contact, Heating, Cooling, Melbourne, Appointment, Quote, Service"
+          content="Contact Heating Service Melbourne, gas heating service, ducted heating service, hydronic heating service, heating repair, heating installation, heating maintenance, heater service, heater repair, heater installation, heater maintenance"
         />
         <meta
           property="og:title"
-          content="Contact Us | Service First - Book Your Heating & Cooling Appointment"
+          content="Contact Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           property="og:description"
-          content="Contact Service First for expert heating and cooling services in Melbourne. Book an appointment, get a quote, or ask a question today!"
+          content="Contact us for Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance in Melbourne. Book your heating appointment or request a quote today."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.servicefirst.com.au/contact"
+          content="https://www.heatingservicemelbourne.com.au/contact"
         />
         <meta property="og:image" content="/assets/img/hero_img_1.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Contact Us | Service First - Book Your Heating & Cooling Appointment"
+          content="Contact Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           name="twitter:description"
-          content="Contact Service First for expert heating and cooling services in Melbourne. Book an appointment, get a quote, or ask a question today!"
+          content="Contact Heating Service Melbourne for expert heating service, repair, installation, and maintenance. Gas, Ducted & Hydronic Heating specialists in Melbourne."
         />
         <meta name="twitter:image" content="/assets/img/hero_img_1.png" />
-        <link rel="canonical" href="https://www.servicefirst.com.au/contact" />
+        <link
+          rel="canonical"
+          href="https://www.heatingservicemelbourne.com.au/contact"
+        />
         <meta name="robots" content="index, follow" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -58,10 +62,10 @@ const Contact = () => {
                 Contact Information
               </h2>
               <p className="cs_mb_30">
-                Our QuickCool Installation service provides fast and efficient
-                installation of new air conditioning units. Our certified
-                technicians will ensure your system is air an installed
-                correctly and safely,
+                Contact us for expert Gas Heating, Ducted Heating, and Hydronic
+                Heating service, repair, installation, and maintenance in
+                Melbourne. Our certified technicians deliver safe, efficient,
+                and reliable heating solutions for your home or business.
               </p>
               <div className="row cs_gap_y_30 cs_row_gap_30">
                 <ContactCard

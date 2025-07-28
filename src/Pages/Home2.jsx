@@ -14,40 +14,46 @@ const Home2 = () => {
   return (
     <div>
       <Helmet>
-        <title>Heating Service Melbourne | Heating Experts Melbourne</title>
+        <title>
+          Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service,
+          Repair, Installation & Maintenance
+        </title>
         <meta
           name="description"
-          content="Turning up the chill factor in your home or office. Air conditioning and heating installation, maintenance, and custom solutions in Melbourne."
+          content="Heating Service Melbourne are experts in Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for homes and businesses. Reliable, energy-efficient heating solutions in Melbourne."
         />
         <meta
           name="keywords"
-          content="Air Conditioning, Heating, Installation, Maintenance, Melbourne, Custom Solutions"
+          content="Gas Heating Melbourne, Ducted Heating Melbourne, Hydronic Heating Melbourne, heating service, heating repair, heating installation, heating maintenance, heater service, heater repair, heater installation, heater maintenance"
         />
         <meta
           property="og:title"
-          content="Heating Service Melbourne | Heating Experts Melbourne"
+          content="Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           property="og:description"
-          content="Turning up the chill factor in your home or office. Air conditioning and heating installation, maintenance, and custom solutions in Melbourne."
+          content="Expert Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance in Melbourne. Trusted heating specialists for homes and businesses."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.servicefirst.com.au/home2"
+          content="https://www.heatingservicemelbourne.com.au/home2"
         />
         <meta property="og:image" content="/assets/img/about_img_2.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Heating Service Melbourne | Air Conditioning & Heating Experts Melbourne"
+          content="Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           name="twitter:description"
-          content="Turning up the chill factor in your home or office. Air conditioning and heating installation, maintenance, and custom solutions in Melbourne."
+          content="Heating Service Melbourne offers Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for Melbourne homes and businesses."
         />
         <meta name="twitter:image" content="/assets/img/about_img_2.png" />
-        <link rel="canonical" href="https://www.servicefirst.com.au/home2" />
+        <link
+          rel="canonical"
+          href="https://www.heatingservicemelbourne.com.au/home2"
+        />
         <meta name="robots" content="index, follow" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

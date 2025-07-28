@@ -3,6 +3,7 @@ import BreadCumb from "../Common/BreadCumb";
 import Form2 from "../Form/Form2";
 import { useEffect, useRef, useState } from "react";
 import data from "../../Data/accordion.json";
+import { Helmet } from "react-helmet-async";
 
 const DuctedGasHeating = () => {
   const ServiceCategory = [
@@ -34,6 +35,58 @@ const DuctedGasHeating = () => {
 
   return (
     <div className="service-details">
+      <Helmet>
+        <title>
+          Ducted Heating Service Melbourne | Ducted Heater Repair, Installation
+          & Maintenance
+        </title>
+        <meta
+          name="description"
+          content="Expert Ducted Heating service, repair, installation, and maintenance in Melbourne. Professional technicians for safe, efficient, and reliable ducted heating solutions for homes and businesses."
+        />
+        <meta
+          name="keywords"
+          content="Ducted Heating Melbourne, ducted heating service, ducted heating repair, ducted heating installation, ducted heating maintenance, ducted heating specialist, ducted heating solutions"
+        />
+        <meta
+          property="og:title"
+          content="Ducted Heating Service Melbourne | Ducted Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          property="og:description"
+          content="Professional Ducted Heating service, repair, installation, and maintenance in Melbourne. Trusted experts for safe and efficient ducted heating systems."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.heatingservicemelbourne.com.au/service/ducted-heating"
+        />
+        <meta
+          property="og:image"
+          content="/assets/img/service-ducted-air-con-img.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Ducted Heating Service Melbourne | Ducted Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          name="twitter:description"
+          content="Expert Ducted Heating service, repair, installation, and maintenance for Melbourne homes and businesses. Certified ducted heating specialists."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/img/service-ducted-air-con-img.jpg"
+        />
+        <link
+          rel="canonical"
+          href="https://www.heatingservicemelbourne.com.au/service/ducted-heating"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <html lang="en" />
+      </Helmet>
       <BreadCumb Title="Ducted Heating" />
       <section>
         <div className="cs_height_120 cs_height_lg_80"></div>

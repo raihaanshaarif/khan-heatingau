@@ -93,14 +93,14 @@ const Home = () => {
         Img="/assets/img/about_img_1.png"
         TitleUp="About Us"
         Title="Melbourne’s Trusted Heating Professionals"
-        Content="With years of experience, we provide expert installation, maintenance, and repair for all heating systems. Our team is dedicated to delivering reliable, energy-efficient solutions tailored to your home or business. Breathe easy with our prompt, friendly, and professional service."
+        Content="We specialize in Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance in Melbourne. Our experienced team delivers reliable, energy-efficient heating solutions for homes and businesses. Choose us for prompt, professional service and expert care for all your heating needs."
         FeatureList={[
-          "Expert System Installation",
-          "Comprehensive Maintenance",
-          "Fast & Reliable Repairs",
-          "Energy Efficiency Solutions",
-          "Residential & Commercial Services",
-          "24/7 Emergency Support",
+          "Gas Heating Service, Repair & Installation",
+          "Ducted Heating Service, Repair & Installation",
+          "Hydronic Heating Service, Repair & Installation",
+          "Expert Heating System Maintenance",
+          "Energy-Efficient Heating Solutions",
+          "Melbourne Residential & Commercial Heating Specialists",
         ]}
         NumberContent="Call now to book a service"
         Number="0405 133 761"

@@ -133,61 +133,13 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
-      {/* <li className="menu-item-has-children">
-        <Link to="#">Pages</Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link to="/brands" onClick={() => setMobileToggle(false)}>
-                Brands
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/team/team-details"
-                onClick={() => setMobileToggle(false)}
-              >
-                Team Details
-              </Link>
-            </li>
-            <li>
-              <Link to="/project" onClick={() => setMobileToggle(false)}>
-                Project
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/project/project-details"
-                onClick={() => setMobileToggle(false)}
-              >
-                Project Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li> */}
-      {/* <li className="menu-item-has-children">
-        <Link to="/blog" onClick={() => setMobileToggle(false)}>
-          Blog
+
+      <li className="menu-item-has-children">
+        <Link to="/brands" onClick={() => setMobileToggle(false)}>
+          Brands
         </Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link to="/blog" onClick={() => setMobileToggle(false)}>
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/blog/blog-details"
-                onClick={() => setMobileToggle(false)}
-              >
-                Blog Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
-      </li> */}
+      </li>
+
       <li>
         <Link to="/contact" onClick={() => setMobileToggle(false)}>
           Contact

@@ -3,6 +3,7 @@ import BreadCumb from "../Common/BreadCumb";
 import Form2 from "../Form/Form2";
 import { useEffect, useRef, useState } from "react";
 import data from "../../Data/accordion.json";
+import { Helmet } from "react-helmet-async";
 
 const GasHeating = () => {
   const ServiceCategory = [
@@ -34,6 +35,55 @@ const GasHeating = () => {
 
   return (
     <div className="service-details">
+      <Helmet>
+        <title>
+          Gas Heating Service Melbourne | Gas Heater Repair, Installation &
+          Maintenance
+        </title>
+        <meta
+          name="description"
+          content="Expert Gas Heating service, repair, installation, and maintenance in Melbourne. Certified technicians for safe, efficient, and reliable gas heater solutions for homes and businesses."
+        />
+        <meta
+          name="keywords"
+          content="Gas Heating Melbourne, gas heater service, gas heater repair, gas heater installation, gas heater maintenance, gas heating specialist, gas heating solutions"
+        />
+        <meta
+          property="og:title"
+          content="Gas Heating Service Melbourne | Gas Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          property="og:description"
+          content="Professional Gas Heating service, repair, installation, and maintenance in Melbourne. Trusted experts for safe and efficient gas heating systems."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.heatingservicemelbourne.com.au/service/gas-heating"
+        />
+        <meta property="og:image" content="/assets/img/service_details_1.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Gas Heating Service Melbourne | Gas Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          name="twitter:description"
+          content="Expert Gas Heating service, repair, installation, and maintenance for Melbourne homes and businesses. Certified gas heating specialists."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/img/service_details_1.jpg"
+        />
+        <link
+          rel="canonical"
+          href="https://www.heatingservicemelbourne.com.au/service/gas-heating"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <html lang="en" />
+      </Helmet>
       <BreadCumb Title="Gas Heater" />
       <section>
         <div className="cs_height_120 cs_height_lg_80"></div>

@@ -3,6 +3,7 @@ import BreadCumb from "../Common/BreadCumb";
 import Form2 from "../Form/Form2";
 import { useEffect, useRef, useState } from "react";
 import data from "../../Data/accordion.json";
+import { Helmet } from "react-helmet-async";
 
 const HydronicHeating = () => {
   const ServiceCategory = [
@@ -34,6 +35,58 @@ const HydronicHeating = () => {
 
   return (
     <div className="service-details">
+      <Helmet>
+        <title>
+          Hydronic Heating Service Melbourne | Hydronic Heater Repair,
+          Installation & Maintenance
+        </title>
+        <meta
+          name="description"
+          content="Expert Hydronic Heating service, repair, installation, and maintenance in Melbourne. Professional technicians for safe, efficient, and reliable hydronic heating solutions for homes and businesses."
+        />
+        <meta
+          name="keywords"
+          content="Hydronic Heating Melbourne, hydronic heating service, hydronic heating repair, hydronic heating installation, hydronic heating maintenance, hydronic heating specialist, hydronic heating solutions"
+        />
+        <meta
+          property="og:title"
+          content="Hydronic Heating Service Melbourne | Hydronic Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          property="og:description"
+          content="Professional Hydronic Heating service, repair, installation, and maintenance in Melbourne. Trusted experts for safe and efficient hydronic heating systems."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.heatingservicemelbourne.com.au/service/hydronic-heating"
+        />
+        <meta
+          property="og:image"
+          content="/assets/img/hydronic-heating-img.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Hydronic Heating Service Melbourne | Hydronic Heater Repair, Installation & Maintenance"
+        />
+        <meta
+          name="twitter:description"
+          content="Expert Hydronic Heating service, repair, installation, and maintenance for Melbourne homes and businesses. Certified hydronic heating specialists."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/img/hydronic-heating-img.jpg"
+        />
+        <link
+          rel="canonical"
+          href="https://www.heatingservicemelbourne.com.au/service/hydronic-heating"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <html lang="en" />
+      </Helmet>
       <BreadCumb Title="Hydronic Heating" />
       <section>
         <div className="cs_height_120 cs_height_lg_80"></div>

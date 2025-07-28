@@ -10,24 +10,24 @@ const About = () => {
     <div className="about-area">
       <Helmet>
         <title>
-          About Us | Heating Service Melbourne - Trusted Heating Service
-          Specialists in Melbourne
+          Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service,
+          Repair, Installation & Maintenance
         </title>
         <meta
           name="description"
-          content="Learn about Heating Service Melbourne - Melbourne’s experts in heating solutions for homes and businesses. Custom installations, repairs, service and maintenance."
+          content="Heating Service Melbourne are specialists in Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for homes and businesses. Reliable, energy-efficient heating solutions in Melbourne."
         />
         <meta
           name="keywords"
-          content="Heating Service Melbourne, About, Heating, Cooling, Melbourne, Installation, Repair, Service, Maintenance, Energy Efficient"
+          content="Gas Heating Melbourne, Ducted Heating Melbourne, Hydronic Heating Melbourne, heating service, heating repair, heating installation, heating maintenance, heater service, heater repair, heater installation, heater maintenance"
         />
         <meta
           property="og:title"
-          content="About Us | Heating Service Melbourne - - Melbourne’s Trusted Heating Specialists"
+          content="Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           property="og:description"
-          content="Learn about Heating Service Melbourne -, Melbourne’s experts in heating and cooling solutions for homes and businesses."
+          content="Expert Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance in Melbourne. Trusted heating specialists for homes and businesses."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -38,11 +38,11 @@ const About = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="About Us | Heating Service Melbourne - Melbourne’s Trusted Heating Specialists"
+          content="Heating Service Melbourne | Gas, Ducted & Hydronic Heating - Service, Repair, Installation & Maintenance"
         />
         <meta
           name="twitter:description"
-          content="Learn about Heating Service Melbourne, Melbourne’s experts in heating solutions for homes and businesses."
+          content="Heating Service Melbourne offers Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for Melbourne homes and businesses."
         />
         <meta name="twitter:image" content="/assets/img/about_img_2.png" />
         <link

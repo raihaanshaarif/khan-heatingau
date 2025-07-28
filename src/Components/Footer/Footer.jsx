@@ -14,6 +14,7 @@ const Footer = () => {
     { title: "Home", link: "/" },
     { title: "About", link: "/about" },
     { title: "Services", link: "/service" },
+    { title: "Service Areas", link: "/service-area" },
     { title: "Contact", link: "/contact" },
   ];
 
@@ -86,7 +87,10 @@ const Footer = () => {
               data-wow-delay="0.25s"
             >
               <Link to="/">
-                <img src="/assets/img/logo-17.png" alt="Logo" />
+                <img
+                  src="/assets/img/logo-18.png"
+                  alt="Heating Service Melbourne"
+                />
               </Link>
             </div>
             <div className="cs_footer_contact_card">
