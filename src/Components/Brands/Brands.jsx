@@ -73,10 +73,57 @@ const Brands = () => {
               <div key={index} className="col-lg-4 col-md-6 cs_mb_20">
                 <Link
                   to={`/brands/${generateSlug(suburb)}`}
-                  className="cs_service_area_link d-block p-3 text-decoration-none border rounded hover-shadow"
+                  className="cs_service_area_link d-block p-3 text-decoration-none border rounded hover-shadow text-center"
                   onClick={() => window.scrollTo(0, 0)}
+                  style={{
+                    height: "140px",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "stretch",
+                    alignItems: "center",
+                  }}
                 >
-                  <span className="cs_fs_16 cs_medium">{suburb}</span>
+                  <div
+                    style={{
+                      flex: "0 0 80%",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      height: "80%",
+                      minHeight: "90px", // ensures enough space for all images
+                      background: "#fff", // optional: helps visibility for transparent images
+                    }}
+                  >
+                    <img
+                      src={`/assets/img/brands/${generateSlug(suburb)}.png`}
+                      alt={suburb}
+                      className="cs_section_subheading_icon mb-2"
+                      style={{
+                        height: "100%",
+                        width: "auto",
+                        maxWidth: "80%",
+                        objectFit: "contain",
+                        display: "block",
+                        margin: "0 auto",
+                      }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      flex: "0 0 20%",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      height: "20%",
+                    }}
+                  >
+                    <span
+                      className="cs_fs_16 cs_medium"
+                      style={{ display: "block" }}
+                    >
+                      {suburb}
+                    </span>
+                  </div>
                 </Link>
               </div>
             ))}
