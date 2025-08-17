@@ -34,7 +34,7 @@ const About = () => {
           property="og:url"
           content="https://www.heatingservicemelbourne.com.au/about"
         />
-        <meta property="og:image" content="/assets/img/about_img_2.png" />
+        <meta property="og:image" content="/assets/img/about_img_2.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -44,7 +44,7 @@ const About = () => {
           name="twitter:description"
           content="Heating Service Melbourne offers Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for Melbourne homes and businesses."
         />
-        <meta name="twitter:image" content="/assets/img/about_img_2.png" />
+        <meta name="twitter:image" content="/assets/img/about_img_2.webp" />
         <link
           rel="canonical"
           href="https://www.heatingservicemelbourne.com.au/about"
@@ -56,7 +56,7 @@ const About = () => {
       </Helmet>
       <BreadCumb Title="About Us - Heating Service Melbourne "></BreadCumb>
       <About2
-        Img="/assets/img/about_img_2.png"
+        Img="/assets/img/about_img_2.webp"
         TitleUp="About Us"
         Title="Melbourne’s Trusted Heating Specialists - Heating Service Melbourne "
         Content="At Heating Service Melbourne, we deliver expert heating solutions for homes and businesses across Melbourne. Our experienced team ensures every installation, repair, and maintenance job is completed with precision, efficiency, and a commitment to your comfort. From air conditioning to hydronic heating, we tailor our services to suit your needs and budget."

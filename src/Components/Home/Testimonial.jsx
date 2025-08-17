@@ -31,7 +31,7 @@ const Testimonial = () => {
   return (
     <section
       className="cs_testimonial_1_section cs_bg_filed"
-      data-background="/assets/img/testimonial_bg.svg"
+      data-background="/assets/img/testimonial_bg.webp"
     >
       <div className="cs_height_115 cs_height_lg_70"></div>
       <div className="container">
@@ -167,7 +167,7 @@ const Testimonial = () => {
       </div>
       <div
         className="cs_testimonial_1_thumb"
-        data-background="/assets/img/testimonial_img.png"
+        data-background="/assets/img/testimonial_img.webp"
       >
         <div className="cs_testimonial_1_quote_wrap">
           <div

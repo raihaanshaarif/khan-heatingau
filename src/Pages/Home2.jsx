@@ -39,7 +39,7 @@ const Home2 = () => {
           property="og:url"
           content="https://www.heatingservicemelbourne.com.au/home2"
         />
-        <meta property="og:image" content="/assets/img/about_img_2.png" />
+        <meta property="og:image" content="/assets/img/about_img_2.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -49,7 +49,7 @@ const Home2 = () => {
           name="twitter:description"
           content="Heating Service Melbourne offers Gas Heating, Ducted Heating, and Hydronic Heating service, repair, installation, and maintenance for Melbourne homes and businesses."
         />
-        <meta name="twitter:image" content="/assets/img/about_img_2.png" />
+        <meta name="twitter:image" content="/assets/img/about_img_2.webp" />
         <link
           rel="canonical"
           href="https://www.heatingservicemelbourne.com.au/home2"
@@ -61,7 +61,7 @@ const Home2 = () => {
       </Helmet>
       <HomeSlider2></HomeSlider2>
       <About2
-        Img="/assets/img/about_img_2.png"
+        Img="/assets/img/about_img_2.webp"
         TitleUp="About us"
         Title="Turning up the chill factor in your home or office"
         Content="This involves setting up a new air conditioning system in your home or office. It's crucial to ensure that the unit is properly sized for the space and installed correctly for optimal efficiency"

@@ -7,29 +7,35 @@ const Form2 = () => {
       email: form[1].value,
       phone: form[2].value,
       address: form[3].value,
-      postcode: form[4].value,
       services: [
-        form[5].checked ? "Heating" : null,
-        form[6].checked ? "Cooling" : null,
+        form[4].checked ? "Heating" : null,
+        form[5].checked ? "Cooling" : null,
       ].filter(Boolean),
-      serviceType: form[7].value,
-      date: form[8].value,
-      time: form[9].value,
-      additionalInfo: form[10].value,
+      serviceType: form[6].value,
+      date: form[7].value,
+      additionalInfo: form[8].value,
     };
 
     // Send email via sendmail.php
     try {
-      const response = await fetch("https://servicemyhome.net/sendmail.php", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      if (response.ok) {
+      const response = await fetch(
+        "https://heaterservicemelbourne.com.au/sendmail.php",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }
+      );
+
+      // Check backend JSON success flag
+      const result = await response.json();
+      if (result.success) {
         alert("Your appointment request has been sent!");
         form.reset();
       } else {
-        alert("Failed to send email. Please try again later.");
+        alert(
+          result.message || "Failed to send email. Please try again later."
+        );
       }
     } catch (err) {
       alert("Failed to send email. Please try again later.");
@@ -70,13 +76,6 @@ const Form2 = () => {
         placeholder="Address Line 1 (required)*"
         required
       />
-      {/* Postcode */}
-      <input
-        type="text"
-        className="cs_form_field cs_mb_10"
-        placeholder="Postcode*"
-        required
-      />
       {/* Heating/Cooling checkboxes */}
       <div className="cs_mb_10">
         <label style={{ marginRight: "16px" }}>
@@ -108,16 +107,10 @@ const Form2 = () => {
         <option value="Installation">Installation</option>
         <option value="Maintenance">Maintenance</option>
       </select>
-      {/* Date and Time */}
+      {/* Date */}
       <div className="cs_mb_10 d-flex" style={{ gap: "10px" }}>
         <input
           type="date"
-          className="cs_form_field"
-          required
-          style={{ flex: 1 }}
-        />
-        <input
-          type="time"
           className="cs_form_field"
           required
           style={{ flex: 1 }}
@@ -175,6 +168,21 @@ export default Form2;
 //                 <option value="Maintenance">Maintenance</option>
 //             </select>
 //             {/* Date and Time */}
+//             <div className="cs_mb_22 d-flex" style={{ gap: "10px" }}>
+//                 <input type="date" className="cs_form_field" required style={{ flex: 1 }} />
+//                 <input type="time" className="cs_form_field" required style={{ flex: 1 }} />
+//             </div>
+//             {/* Additional Information */}
+//             <textarea cols="30" rows="4" className="cs_form_field cs_mb_22" placeholder="Additional Information..." />
+//             {/* Submit */}
+//             <button className="cs_btn cs_style_1 w-100" type="submit">
+//                 <span>Appointment Now</span>
+//             </button>
+//         </form>
+//     );
+// };
+
+// export default Form3;
 //             <div className="cs_mb_22 d-flex" style={{ gap: "10px" }}>
 //                 <input type="date" className="cs_form_field" required style={{ flex: 1 }} />
 //                 <input type="time" className="cs_form_field" required style={{ flex: 1 }} />

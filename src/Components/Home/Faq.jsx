@@ -22,8 +22,8 @@ const Faq = () => {
   }, [firstItemOpen]);
 
   const FaqContent = {
-    img1: "/assets/img/faq_img_1.jpg",
-    img2: "/assets/img/faq_img_2.jpg",
+    img1: "/assets/img/faq_img_1.webp",
+    img2: "/assets/img/faq_img_2.webp",
     Experience: "35K+",
     BestAward: "Heating Service Melbourne",
     Content:

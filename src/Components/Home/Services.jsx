@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section
       className="cs_bg_filed"
-      data-background="/assets/img/service_bg_1.svg"
+      data-background="/assets/img/service_bg_1.webp"
     >
       <div className="cs_height_115 cs_height_lg_70"></div>
       <div className="container">

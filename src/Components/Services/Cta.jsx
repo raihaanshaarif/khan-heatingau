@@ -46,7 +46,7 @@ const Cta = () => {
         </div>
       </div>
       <div className="cs_cta_img">
-        <img src="/assets/img/cta_img_1.png" alt="" />
+        <img src="/assets/img/cta_img_1.webp" alt="" />
       </div>
     </section>
   );

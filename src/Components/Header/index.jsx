@@ -117,7 +117,7 @@ export default function Header({ variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to="/">
-                  <img src="/assets/img/logo-17.png" alt="Logo" />
+                  <img src="/assets/img/logo-17.webp" alt="Logo" />
                 </Link>
               </div>
 

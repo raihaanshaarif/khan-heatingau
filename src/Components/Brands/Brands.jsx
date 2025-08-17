@@ -34,7 +34,7 @@ const Brands = () => {
           property="og:url"
           content="https://www.heatingservicemelbourne.com.au/brands"
         />
-        <meta property="og:image" content="/assets/img/about_img_2.png" />
+        <meta property="og:image" content="/assets/img/about_img_2.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -44,7 +44,7 @@ const Brands = () => {
           name="twitter:description"
           content="We work with Braemar, Brivis, Bonaire, Kaden, Vulcan, Omega and all major heating brands in Melbourne. Service, repair, installation, and maintenance by expert technicians."
         />
-        <meta name="twitter:image" content="/assets/img/about_img_2.png" />
+        <meta name="twitter:image" content="/assets/img/about_img_2.webp" />
         <link
           rel="canonical"
           href="https://www.heatingservicemelbourne.com.au/brands"

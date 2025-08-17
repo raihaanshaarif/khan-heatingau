@@ -5,7 +5,15 @@ ini_set('display_errors', 1);
 
 // Allow CORS and JSON POST
 header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json; charset=UTF-8");
+
+// Handle preflight OPTIONS request
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
+    exit;
+}
 
 // Get POST data
 $data = json_decode(file_get_contents("php://input"), true);
@@ -16,11 +24,19 @@ if (!$data) {
     exit;
 }
 
+// Load PHPMailer
+require __DIR__ . '/vendor/autoload.php';
+
+// Fallback: manually load PHPMailer classes if autoloader failed
+if (!class_exists('PHPMailer\PHPMailer\PHPMailer')) {
+    require __DIR__ . '/vendor/phpmailer/phpmailer/src/Exception.php';
+    require __DIR__ . '/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+    require __DIR__ . '/vendor/phpmailer/phpmailer/src/SMTP.php';
+}
+
 // PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
-require __DIR__ . '/vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
@@ -35,7 +51,7 @@ try {
     $mail->Port       = 587;
 
     $mail->setFrom('inquiryservicefirstau@gmail.com', 'Service First Website');
-    $mail->addAddress('codexbd@gmail.com');
+    $mail->addAddress('nihaanexpertise@gmail.com');
 
     $mail->isHTML(true);
     $mail->Subject = 'New Appointment Request';
@@ -45,17 +61,16 @@ try {
         <p><strong>Email:</strong> {$data['email']}</p>
         <p><strong>Phone:</strong> {$data['phone']}</p>
         <p><strong>Address:</strong> {$data['address']}</p>
-        <p><strong>Postcode:</strong> {$data['postcode']}</p>
         <p><strong>Services:</strong> " . implode(", ", $data['services']) . "</p>
         <p><strong>Service Type:</strong> {$data['serviceType']}</p>
         <p><strong>Date:</strong> {$data['date']}</p>
-        <p><strong>Time:</strong> {$data['time']}</p>
         <p><strong>Additional Info:</strong> {$data['additionalInfo']}</p>
     ";
 
     $mail->send();
     echo json_encode(["success" => true, "message" => "Email sent"]);
 } catch (Exception $e) {
-    http_response_code(500);
+    // Remove error status to always return 200 OK
+    // http_response_code(500);
     echo json_encode(["success" => false, "message" => "Mailer Error: {$mail->ErrorInfo}"]);
 }

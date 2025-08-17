@@ -254,7 +254,7 @@ const Area = () => {
           property="og:url"
           content="https://www.heatingservicemelbourne.com.au/service-area"
         />
-        <meta property="og:image" content="/assets/img/about_img_2.png" />
+        <meta property="og:image" content="/assets/img/about_img_2.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -264,7 +264,7 @@ const Area = () => {
           name="twitter:description"
           content="Expert heating service, repair, installation, and maintenance for Gas, Ducted & Hydronic Heating systems in all Melbourne suburbs."
         />
-        <meta name="twitter:image" content="/assets/img/about_img_2.png" />
+        <meta name="twitter:image" content="/assets/img/about_img_2.webp" />
         <link
           rel="canonical"
           href="https://www.heatingservicemelbourne.com.au/service-area"
